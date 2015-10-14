@@ -11,17 +11,7 @@ Number of days: <a href="#/forecast/3" ng-class="{'bg-primary': days === '3'}">3
 <div class="row">
 	
 	<div class="col-md-12">
-		<div class="panel panel-default">
-			
-			<div class="panel-heading">
-				<h3 class="panel-title">
-					{{ convertToDate(w.dt) | date: 'MMM d, y' }}
-				</h3>
-			</div>
-			<div class="panel-body">
-				temperature for the day: {{ convertToCelsius(w.temp.day)}}
-			</div>
-		</div>
+		<weather-report></weather-report>
 	</div>
 </div>
 
