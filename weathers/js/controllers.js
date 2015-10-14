@@ -19,19 +19,14 @@ $location.path("/forecast");
 
 }]);
 
-myApp.controller('forecastControler', ['$scope','weatherServices', '$resource','$routeParams', function($scope,weatherServices,$resource,$routeParams){
+myApp.controller('forecastControler', ['$scope','weatherServices','WeatherAPIService','$routeParams', function($scope,weatherServices,WeatherAPIService,$routeParams){
 
 
 $scope.city=weatherServices.city_name;
 
-$scope.weatherAPI = $resource("http://api.openweathermap.org/data/2.5/forecast/daily", 
-	{callback: "JSON_CALLBACK"}, {get: {method: "JSONP"}});
-
 $scope.days=$routeParams.num_days || '2';
 
-	$scope.weatherResult=$scope.weatherAPI.get({q: $scope.city, cnt: $scope.days, appid: 'ac80e6a0df56e4757bb682b2feb09539'});
-
-
+	$scope.weatherResult= WeatherAPIService.GetWeather($scope.city, $scope.days);
 
 
 $scope.convertToCelsius = function(kelvin){
