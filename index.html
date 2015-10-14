@@ -3,12 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 
-	<!-- Latest compiled and minified CSS -->
+	
+<script  scr="https://code.angularjs.org/1.4.7/angular.min.js"></script>
+<script type="text/javascript" src="weathers/js/lib/angular.js"></script>
+<script type="text/javascript" src="weathers/js/lib/angular-route.min.js"></script>
+<script  type="text/javascript" src="weathers/js/lib//angular-resource.min.js"></script>
+
+<script  src="weathers/js/app.js"></script>
+<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script type="text/javascript" href="https://code.angularjs.org/1.4.7/angular.min.js"></script>
-<script type="text/javascript" href="https://code.angularjs.org/1.4.7/angular-resource.min.js"></script>
-<script type="text/javascript" href="https://code.angularjs.org/1.4.7/angular-route.min.js"></script>
-<script type="text/javascript" href="js/app.js"></script>
 
 
 	<title>Vantaa Weather Application SPA</title>
@@ -35,7 +38,9 @@
 	</nav>
 </header>
 <div class="container">
-	
+	<div ng-view>
+		
+	</div>
 </div>
 
 

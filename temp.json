@@ -1,0 +1,187 @@
+{
+    "city": {
+        "id": 830153,
+        "name": "Vantaa",
+        "coord": {
+            "lon": 25.16667,
+            "lat": 60.299999
+        },
+        "country": "FI",
+        "population": 0
+    },
+    "cod": "200",
+    "message": 0.0165,
+    "cnt": 7,
+    "list": [
+        {
+            "dt": 1444816800,
+            "temp": {
+                "day": 281.36,
+                "min": 280.82,
+                "max": 281.36,
+                "night": 280.82,
+                "eve": 281.36,
+                "morn": 281.36
+            },
+            "pressure": 1042.56,
+            "humidity": 100,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "02d"
+                }
+            ],
+            "speed": 5.76,
+            "deg": 293,
+            "clouds": 8
+        },
+        {
+            "dt": 1444903200,
+            "temp": {
+                "day": 281.67,
+                "min": 280.67,
+                "max": 282.12,
+                "night": 281.95,
+                "eve": 282.12,
+                "morn": 280.67
+            },
+            "pressure": 1046.78,
+            "humidity": 100,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 5.58,
+            "deg": 279,
+            "clouds": 0
+        },
+        {
+            "dt": 1444989600,
+            "temp": {
+                "day": 281.58,
+                "min": 281.47,
+                "max": 282.01,
+                "night": 281.47,
+                "eve": 282.01,
+                "morn": 281.66
+            },
+            "pressure": 1042.54,
+            "humidity": 100,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "speed": 5.67,
+            "deg": 228,
+            "clouds": 12
+        },
+        {
+            "dt": 1445076000,
+            "temp": {
+                "day": 281.72,
+                "min": 281.2,
+                "max": 282.59,
+                "night": 282.59,
+                "eve": 282.38,
+                "morn": 281.24
+            },
+            "pressure": 1035.67,
+            "humidity": 100,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 3.78,
+            "deg": 246,
+            "clouds": 0
+        },
+        {
+            "dt": 1445162400,
+            "temp": {
+                "day": 281.76,
+                "min": 281.45,
+                "max": 283.15,
+                "night": 283.15,
+                "eve": 282.7,
+                "morn": 281.75
+            },
+            "pressure": 1029.36,
+            "humidity": 100,
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "speed": 3.47,
+            "deg": 31,
+            "clouds": 68
+        },
+        {
+            "dt": 1445248800,
+            "temp": {
+                "day": 280.78,
+                "min": 278.1,
+                "max": 280.78,
+                "night": 278.1,
+                "eve": 279.31,
+                "morn": 279.31
+            },
+            "pressure": 1027.94,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 5,
+            "deg": 51,
+            "clouds": 54,
+            "rain": 2.53
+        },
+        {
+            "dt": 1445335200,
+            "temp": {
+                "day": 278.89,
+                "min": 276.83,
+                "max": 278.89,
+                "night": 276.83,
+                "eve": 277.74,
+                "morn": 277.99
+            },
+            "pressure": 1039.98,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 7.24,
+            "deg": 57,
+            "clouds": 28,
+            "rain": 2.55
+        }
+    ]
+}
